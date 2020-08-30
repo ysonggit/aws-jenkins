@@ -70,6 +70,7 @@ Aug 30 19:53:03 ip-172-31-7-163 systemd[1]: Started LSB: Start Jenkins at boot t
 - Install & Restart Jenkins
 - Signup https://microscanner.aquasec.com/signup to get a token from email (may goes to Spam)
 - Click "Manage Jenkins" --> "Configure System" and paste Microscanner token
+- **https://www.jenkins.io/doc/pipeline/steps/aqua-microscanner/**
 
 ### Install Docker
 
