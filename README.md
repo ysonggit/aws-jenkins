@@ -68,3 +68,20 @@ Aug 30 19:53:03 ip-172-31-7-163 systemd[1]: Started LSB: Start Jenkins at boot t
 - Search "AWS" and select "Pipeline AWS Steps"
 - Search "aqua Microscanner" and select it
 - Install & Restart Jenkins
+- Signup https://microscanner.aquasec.com/signup to get a token from email (may goes to Spam)
+- Click "Manage Jenkins" --> "Configure System" and paste Microscanner token
+
+### Install Docker
+
+ssh to the EC2 instance and install docker with
+
+```
+sudo apt install -y docker.io
+sudo usermod -aG docker jenkins
+sudo systemctl restart jenkins
+docker --version
+Docker version 19.03.6, build 369ce74a3c
+```
+
+Logon Jenkins UI
+- Click "Manage Jenkins" --> "Global Tool Configuration" 
