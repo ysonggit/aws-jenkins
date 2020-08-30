@@ -66,4 +66,5 @@ Aug 30 19:53:03 ip-172-31-7-163 systemd[1]: Started LSB: Start Jenkins at boot t
 - Click "Manage Jenkins" --> "Manage Plugins" --> "Available" 
 - Search "Blue Ocean" and select related plugins
 - Search "AWS" and select "Pipeline AWS Steps"
+- Search "aqua Microscanner" and select it
 - Install & Restart Jenkins
